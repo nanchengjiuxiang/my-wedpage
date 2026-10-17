@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>南倾雪 · 个人小站</title>
+  <meta name="description" content="南倾雪的个人小站：一个在学写代码的人，一些认真的想法，一份正在生长的歌单。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23e4e4e4'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23686868' font-family='serif'%3E%E5%8D%97%3C/text%3E%3C/svg%3E">
+  <!-- 字体：思源宋体 + 思源黑体（代阿里巴巴普惠体）+ Parisienne 手写体 + Cormorant Garamond（Portfolio 大字）；
+       在线加载失败自动回退系统字体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@400;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ 顶栏：搜索胶囊 + 导航（对应模板首页顶部） ============ -->
+  <header class="topbar">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+      </svg>
+      <input id="site-search" type="text" placeholder="搜索你想知道的一切" aria-label="站内搜索：输入关键词回车跳转">
+    </div>
+    <nav class="topnav" aria-label="主导航">
+      <a href="#top" class="active">首页</a>
+      <a href="#about">关于我</a>
+      <a href="#idea">创作理念</a>
+      <a href="#archive">在校档案</a>
+      <a href="#contact">联系方式</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ 首屏 ============ -->
+    <section class="hero" id="top" aria-label="首页">
+      <div class="hero-copy reveal">
+        <h1 class="hero-title">以码为媒<br>以心为境</h1>
+        <p class="hero-attr">—— 南倾雪　的个人小站</p>
+      </div>
+      <div class="hero-side reveal">
+        <p class="hero-quote">一行行代码，皆是岁月沉淀；<br>一次次调试，皆为心声流露。</p>
+        <p class="hero-display">Portfolio</p>
+      </div>
+    </section>
+
+    <!-- ============ 关于我 ============ -->
+    <section id="about" class="section">
+      <h2 class="section-h reveal">关于我 <span class="dash">——</span> 与代码共生，与热爱同行</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            我是南倾雪，计算机相关专业在读。
+            主业是学生，副业是把写代码发展成爱好——目前
+            C 语言负责带我看清内存里发生了什么，Python 负责帮我把
+            重复的活儿自动化。链表、栈、队列这些，我都用 C 语言
+            亲手写过一遍。
+          </p>
+          <p>
+            期末周的老对手：数据结构与算法、操作系统、计算机网络、
+            数据库原理。平时用 Git 收纳代码黑历史，
+            在 Linux 终端里敲命令找感觉。bug 来了不绕路，
+            能自己揪出来的一定自己揪——如果你也在写代码，
+            欢迎来组队，我负责熬夜，你负责夸我。
+          </p>
+          <dl class="about-list">
+            <div><b>身份</b><span>本科在读 · 计算机相关专业</span></div>
+            <div><b>方向</b><span>软件开发 / 后端（认真的）</span></div>
+            <div><b>装备</b><span>C 打基础 · Python 提效率</span></div>
+            <div><b>英语</b><span>技术文档读得懂，报错看得明白</span></div>
+          </dl>
+        </div>
+        <figure class="art-panel reveal">
+          <svg class="art" viewBox="0 0 520 380" preserveAspectRatio="xMidYMid slice" role="img" aria-label="抽象装饰图形">
+            <rect width="520" height="380" fill="#ececec"></rect>
+            <path d="M-20 300 C 120 230, 210 350, 320 260 S 480 170, 560 210" fill="none" stroke="#d6d6d6" stroke-width="30" stroke-linecap="round"></path>
+            <path d="M-20 220 C 110 280, 200 150, 300 200 S 460 260, 560 190" fill="none" stroke="#dfdfdf" stroke-width="20" stroke-linecap="round"></path>
+            <path d="M-20 140 C 130 110, 220 190, 330 120 S 470 70, 560 110" fill="none" stroke="#e6e6e6" stroke-width="13" stroke-linecap="round"></path>
+            <circle cx="430" cy="86" r="34" fill="#e0e0e0" opacity="0.8"></circle>
+          </svg>
+          <figcaption class="art-cap">Untitled No.1 · 数字笔触 · 装饰图形</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 创作理念 ============ -->
+    <section id="idea" class="section">
+      <h2 class="section-h reveal">创作理念 <span class="dash">——</span> 以码造境，以学为径</h2>
+      <div class="idea-grid">
+        <figure class="art-panel tall reveal">
+          <svg class="art" viewBox="0 0 320 420" preserveAspectRatio="xMidYMid slice" role="img" aria-label="纵向装饰图形">
+            <rect width="320" height="420" fill="#ececec"></rect>
+            <path d="M80 -20 C 60 120, 110 240, 80 440" fill="none" stroke="#d7d7d7" stroke-width="26" stroke-linecap="round"></path>
+            <path d="M170 -20 C 200 130, 140 260, 185 440" fill="none" stroke="#e0e0e0" stroke-width="18" stroke-linecap="round"></path>
+            <path d="M255 -20 C 230 140, 290 270, 250 440" fill="none" stroke="#e7e7e7" stroke-width="12" stroke-linecap="round"></path>
+          </svg>
+          <figcaption class="art-cap">Untitled No.2 · 纵向生长</figcaption>
+        </figure>
+        <div class="idea-text reveal">
+          <p>
+            把每一次练习都当作一次创作：先想清楚，再动手写；
+            bug 来了不绕路，独立揪出来才算真的会——
+            这是写代码的方式，也是做事的方式。
+          </p>
+          <p>
+            现阶段死磕两件事：C 语言的算法设计与内存管理，
+            计算机网络和数据库的工程应用。目标很朴素：
+            写出经得起推敲的代码。
+          </p>
+          <p>
+            一个人走得快，一群人走得远。
+            欢迎组队、交流、指点，也欢迎单纯来交换歌单。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 在校档案（对应模板「展览信息」三卡片） ============ -->
+    <section id="archive" class="section">
+      <h2 class="section-h center reveal">在校档案 <span class="dash">——</span> 一门课一份积累，一步一个脚印</h2>
+      <figure class="banner reveal">
+        <svg class="art" viewBox="0 0 1200 240" preserveAspectRatio="xMidYMid slice" role="img" aria-label="横幅装饰图形">
+          <rect width="1200" height="240" fill="#ededed"></rect>
+          <path d="M-20 190 C 200 120, 420 240, 640 170 S 1040 90, 1240 150" fill="none" stroke="#d9d9d9" stroke-width="34" stroke-linecap="round"></path>
+          <path d="M-20 120 C 240 170, 480 60, 720 110 S 1060 170, 1240 100" fill="none" stroke="#e2e2e2" stroke-width="20" stroke-linecap="round"></path>
+          <circle cx="1050" cy="70" r="30" fill="#e0e0e0"></circle>
+        </svg>
+        <figcaption class="art-cap">Untitled No.3 · 远行</figcaption>
+      </figure>
+
+      <div class="cards3">
+        <div class="info-card reveal">
+          <h3>主修课程</h3>
+          <ul>
+            <li>C 语言程序设计</li>
+            <li>数据结构与算法</li>
+            <li>计算机组成原理</li>
+            <li>Python 程序设计</li>
+            <li>操作系统</li>
+            <li>数据库原理</li>
+            <li>计算机网络</li>
+          </ul>
+        </div>
+        <div class="info-card reveal">
+          <h3>技能清单</h3>
+          <ul>
+            <li>C 语言：掌握，越写越顺</li>
+            <li>Python：熟练，偷懒神器</li>
+            <li>Git · Linux：日常在用</li>
+            <li>VS Code · GCC · Python：主力装备</li>
+            <li>英文文档：读得懂，不慌</li>
+          </ul>
+        </div>
+        <div class="info-card reveal">
+          <h3>成长方向</h3>
+          <ul>
+            <li>算法设计与内存管理（C 进阶）</li>
+            <li>计算机网络与数据库实战</li>
+            <li>攒一个像样的后端项目</li>
+            <li>以及：欢迎来挑刺</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 联系方式 ============ -->
+    <section id="contact" class="section">
+      <h2 class="section-h reveal">联系我 <span class="dash">——</span> 以码为桥，静候相逢</h2>
+      <div class="contact-grid">
+        <div class="contact-text reveal">
+          <p>
+            能看到这里，说明你是真爱（或者单纯好奇）。
+            想聊天、想组队、想推荐歌，或者只是路过，都欢迎打个招呼——
+            邮箱常年在线，加微信请备注暗号：你最近单曲循环的那首歌。
+          </p>
+          <div class="contact-list">
+            <div><b>邮箱</b><a class="contact-link" href="mailto:jiuxiangnancheng@163.com">jiuxiangnancheng@163.com</a></div>
+            <!-- 微信号（公开展示） -->
+            <div><b>微信</b><span>jiuxiangnancheng · 加好友请带暗号</span></div>
+            <div><b>方向</b><span>软件开发 / 后端</span></div>
+            <div><b>状态</b><span>本科在读</span></div>
+          </div>
+        </div>
+        <figure class="art-panel tall reveal">
+          <svg class="art" viewBox="0 0 320 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="静候装饰图形">
+            <rect width="320" height="400" fill="#ededed"></rect>
+            <ellipse cx="160" cy="180" rx="120" ry="90" fill="#dfdfdf"></ellipse>
+            <ellipse cx="120" cy="210" rx="70" ry="55" fill="#d4d4d4" opacity="0.8"></ellipse>
+            <path d="M30 330 C 120 300, 210 360, 300 320" fill="none" stroke="#c9c9c9" stroke-width="9" stroke-linecap="round"></path>
+          </svg>
+          <figcaption class="art-cap">Untitled No.4 · 静候</figcaption>
+        </figure>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="foot-line" aria-hidden="true"></div>
+    <p>© 2026 南倾雪 · 以码为媒，以心为境 · 随缘更新</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
